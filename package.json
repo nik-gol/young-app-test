@@ -1,0 +1,28 @@
+{
+  "name": "young_app_test",
+  "version": "1.0.0",
+  "description": "Test application from code&care(Nik)",
+  "main": "api.js",
+  "author": "Nikita G. <nikita.g@code-care.pro>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "dependencies": {
+    "@types/mocha": "^8.0.4",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.1",
+    "ts-node": "^9.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint": "^7.14.0",
+    "eslint-config-google": "^0.14.0",
+    "jsdoc": "^3.6.6",
+    "typescript": "^4.1.2"
+  }
+}
