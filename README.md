@@ -20,7 +20,7 @@ Fill them in `.env` file
 ```yarn install```
 
 #### Run app
-```node src/api.js```
+```yarn start```
 
 #### Run tests
 ```yarn test```

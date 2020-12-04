@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha tests/**/*.test.js",
-    "start": "node src/api.js"
+    "start": "tsc src/api.ts && node src/api.js"
   },
   "dependencies": {
     "@types/mocha": "^8.0.4",
