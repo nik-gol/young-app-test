@@ -6,7 +6,8 @@
   "author": "Nikita G. <nikita.g@code-care.pro>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha tests/**/*.test.js"
+    "test": "mocha tests/**/*.test.js",
+    "start": "node src/api.js"
   },
   "dependencies": {
     "@types/mocha": "^8.0.4",
