@@ -1,0 +1,130 @@
+{
+    "send-an-email-to-mom": {
+        "query": "Send an email to mom",
+        "prediction": {
+            "topIntent": "Email.SendEmail",
+            "intents": {
+                "Email.SendEmail": {
+                    "score": 0.9999998
+                },
+                "Email.Reply": {
+                    "score": 0.0122722993
+                },
+                "Email.SearchMessages": {
+                    "score": 0.00380202639
+                },
+                "Email.ShowNext": {
+                    "score": 8.854088E-06
+                },
+                "Email.AddFlag": {
+                    "score": 6.022099E-06
+                },
+                "Email.ShowPrevious": {
+                    "score": 5.700392E-06
+                },
+                "Email.Confirm": {
+                    "score": 4.292911E-06
+                },
+                "Email.CheckMessages": {
+                    "score": 4.041687E-06
+                },
+                "Email.Cancel": {
+                    "score": 3.951352E-06
+                },
+                "Email.QueryLastText": {
+                    "score": 2.88658953E-06
+                },
+                "Email.AddMore": {
+                    "score": 1.39175063E-06
+                },
+                "Email.Delete": {
+                    "score": 3.44444451E-09
+                },
+                "Email.Forward": {
+                    "score": 2.8E-09
+                },
+                "Email.ReadAloud": {
+                    "score": 1.08148146E-09
+                },
+                "None": {
+                    "score": 1.75E-10
+                }
+            },
+            "entities": {
+                "Email.RelationshipName": [
+                    "mom"
+                ],
+                "$instance": {
+                    "Email.RelationshipName": [
+                        {
+                            "type": "Email.RelationshipName",
+                            "text": "mom",
+                            "startIndex": 17,
+                            "length": 3,
+                            "score": 0.9805245,
+                            "modelTypeId": 1,
+                            "modelType": "Entity Extractor",
+                            "recognitionSources": [
+                                "model"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "lajskdqwne23j": {
+        "query": "lajskdqwne23j",
+        "prediction": {
+            "topIntent": "None",
+            "intents": {
+                "None": {
+                    "score": 0.6576716
+                },
+                "Email.Cancel": {
+                    "score": 0.2590763
+                },
+                "Email.CheckMessages": {
+                    "score": 0.0447397865
+                },
+                "Email.Confirm": {
+                    "score": 0.0225918218
+                },
+                "Email.SearchMessages": {
+                    "score": 0.01460037
+                },
+                "Email.ShowNext": {
+                    "score": 0.009589046
+                },
+                "Email.QueryLastText": {
+                    "score": 0.00534839649
+                },
+                "Email.AddMore": {
+                    "score": 0.00483182073
+                },
+                "Email.Reply": {
+                    "score": 0.00383930933
+                },
+                "Email.Delete": {
+                    "score": 0.00208614441
+                },
+                "Email.ShowPrevious": {
+                    "score": 0.00208350015
+                },
+                "Email.ReadAloud": {
+                    "score": 0.001334552
+                },
+                "Email.AddFlag": {
+                    "score": 0.00109499739
+                },
+                "Email.SendEmail": {
+                    "score": 0.0003824976
+                },
+                "Email.Forward": {
+                    "score": 3.85827079E-05
+                }
+            },
+            "entities": {}
+        }
+    }
+}

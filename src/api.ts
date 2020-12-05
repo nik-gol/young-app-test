@@ -37,6 +37,7 @@ interface queryParams {
 **/
 class Prediction {
   public queryParams: queryParams;
+  public predictions;
 
   /**
    * Set up queryParams to object as parametrs for request
@@ -146,4 +147,5 @@ if (require.main === module) {
   );
 }
 
-module.exports.Prediction = Prediction;
+// module.exports.Prediction = Prediction;
+export default Prediction;
